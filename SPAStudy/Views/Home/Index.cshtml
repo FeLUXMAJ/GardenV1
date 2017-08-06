@@ -1,0 +1,10 @@
+﻿@section SPAViews {
+    @Html.Partial("_Home")
+}
+@section Scripts{
+    @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/signalR")
+    @Scripts.Render("~/bundles/jquerycolor")
+    @Scripts.Render("~/bundles/app")
+    <script src="../signalr/hubs"></script>
+}
